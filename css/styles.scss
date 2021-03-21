@@ -41,7 +41,7 @@ main {
     }
 
     @media screen and (max-width: 615px) {
-      padding: 10%;
+      padding: 20% 10%;
       background-position: top left;
     }
 
@@ -133,6 +133,7 @@ main {
 
     @media screen and (max-width: 950px) {
       padding: 10rem 3rem 10rem 3rem;
+      background-attachment: scroll;
     }
 
     &::before {

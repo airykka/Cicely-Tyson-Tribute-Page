@@ -54,7 +54,7 @@ main .hero {
 
 @media screen and (max-width: 615px) {
   main .hero {
-    padding: 10%;
+    padding: 20% 10%;
     background-position: top left;
   }
 }
@@ -172,6 +172,7 @@ main .quote {
 @media screen and (max-width: 950px) {
   main .quote {
     padding: 10rem 3rem 10rem 3rem;
+    background-attachment: scroll;
   }
 }
 
@@ -252,8 +253,8 @@ main .honors .awards {
   main .honors .awards {
     -ms-grid-columns: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    -ms-grid-rows: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    -ms-grid-rows: repeat 3, 1fr;
+    grid-template-rows: repeat 3, 1fr;
   }
 }
 
@@ -332,4 +333,3 @@ main footer p a {
   text-decoration: none;
   color: var(--accent-color);
 }
-/*# sourceMappingURL=styles.css.map */
