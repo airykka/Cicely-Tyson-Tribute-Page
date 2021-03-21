@@ -169,6 +169,12 @@ main .quote {
   flex-direction: column;
 }
 
+@media screen and (max-width: 950px) {
+  main .quote {
+    padding: 10rem 3rem 10rem 3rem;
+  }
+}
+
 main .quote::before {
   content: "";
   position: absolute;
@@ -220,6 +226,12 @@ main .honors {
   background-color: var(--secondary-color);
 }
 
+@media screen and (max-width: 950px) {
+  main .honors {
+    padding: 10rem 3rem 10rem 3rem;
+  }
+}
+
 main .honors h2 {
   font-size: var(--subtitle);
   text-align: center;
@@ -240,8 +252,8 @@ main .honors .awards {
   main .honors .awards {
     -ms-grid-columns: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    -ms-grid-rows: repeat (3, 1fr);
-    grid-template-rows: repeat (3, 1fr);
+    -ms-grid-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 }
 
@@ -292,6 +304,12 @@ main footer {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   text-align: center;
+}
+
+@media screen and (max-width: 950px) {
+  main footer {
+    padding: 10rem 3rem 10rem 3rem;
+  }
 }
 
 main footer .larry {
